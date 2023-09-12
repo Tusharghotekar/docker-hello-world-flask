@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build image
     pool:
-      defaut: myagent
+      default: myagent
     steps:
     - task: Docker@2
       displayName: Build an image
