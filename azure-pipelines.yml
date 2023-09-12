@@ -26,5 +26,5 @@ stages:
     - task: Docker@2
       inputs:
         command: 'build'
-        Dockerfile: 'https://github.com/Tusharghotekar/docker-hello-world-flask.git'
+        Dockerfile: 'https://github.com/Tusharghotekar/docker-hello-world-flask.git/'
 
